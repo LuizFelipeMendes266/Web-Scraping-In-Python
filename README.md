@@ -3,47 +3,33 @@
 ## Table of Contents
 
 - [Project Description](#project-description)
-- [Data](#data)
 - [Methodology](#methodology)
 - [Results](#results)
-- [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+- [Notes](#notes)
+- [License](#License)
 - [References](#references)
 
 ## Project Description
 
-A brief overview of your project, including what problem it solves, what data you used, and what methods you used to analyze the data.
-
-## Data
-
-A description of the data you used in your project, including where you obtained it and any preprocessing steps you took.
+In this project, we have a script that performs web scraping of a real estate website called Brasil Brokers, properly separating the information.
 
 ## Methodology
 
-A description of the methodology you used in your project, including any models you used and how you evaluated their performance.
+The scrapy library was used, where a class and its respective functions were created to perform capture, pagination, and structuring of information through the ItemLoader. The paths for each piece of information were properly described by their HTML path.
 
 ## Results
 
-A summary of the results you obtained from your analysis, including any visualizations you created.
+As a result, we obtained all the main information that each advertisement on the website offers, including multiple cities and regions.
 
-## Usage
+## Notes
 
-Instructions for how to use your code, including any dependencies and how to run any scripts.
-
-## Contributors
-
-A list of the people who contributed to the project, along with their contact information.
+- A library called "items" was built for the joint capture of xpaths for each HTML path for each advertisement.
+- The Regex library was used to correctly filter the information.
 
 ## License
 
-A statement about the license under which the code and data are released.
-
-## Acknowledgements
-
-Any acknowledgements you would like to make, such as thanking people or organizations that provided data or tools.
+EEmovel Library License
 
 ## References
 
-A list of any references you used in your project, including papers, books, or websites.
+https://docs.scrapy.org/en/latest/
