@@ -26,9 +26,6 @@ As a result, we obtained all the main information that each advertisement on the
 - A library called "items" was built for the joint capture of xpaths for each HTML path for each advertisement.
 - The Regex library was used to correctly filter the information.
 
-## License
-
-EEmovel Library License
 
 ## References
 
